@@ -1,0 +1,102 @@
+body {
+  direction: rtl;
+}
+
+.gap0 {
+  gap: 0 !important;
+}
+.ai-section {
+  background: hsla(298, 68%, 90%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(298, 68%, 90%, 1) 0%,
+    hsla(30, 82%, 91%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(298, 68%, 90%, 1) 0%,
+    hsla(30, 82%, 91%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(298, 68%, 90%, 1) 0%,
+    hsla(30, 82%, 91%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F6D5F7", endColorstr="#FBE9D7", GradientType=1 );
+  border-radius: 30px;
+  padding: 20px 25px;
+  position: relative;
+}
+
+.ai-magic {
+  width: 80%;
+  height: auto;
+}
+
+.ai-animated {
+  background-image: url(../assets/animated_ai.gif);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-position: center;
+  border-radius: 30px;
+  display: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ai-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.ai-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.ai-control {
+  display: flex;
+  gap: 15px;
+  justify-content: end;
+  align-items: center;
+}
+.ai-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.ai-button-circle {
+  background: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+
+.ai-body {
+  display: flex;
+  padding: 0 12px;
+}
+
+.ai-body textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 16px;
+}
